@@ -9,11 +9,12 @@ from flask import Flask, request, render_template
 import pandas as pd
 import sklearn
 import pickle
-
+import joblib
 
 app = Flask(__name__)
-model = pickle.load(open("flight_price.pkl", "rb"))
-
+#model = pickle.load(open("flight_price01.pkl", "rb"))
+with open('flight_price01.pkl', 'rb') as f:
+ model=joblib.load(f)
 
 @app.route("/")
 def home():
