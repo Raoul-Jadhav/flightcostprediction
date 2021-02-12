@@ -3,7 +3,7 @@
 # Overview
 Hello all, this regression project is build using Random Forest Regressor. </br>
 Model is train using HyperParameter Tuning</br>
-The reason behind selecting Random Forest is it works well with all kind of data(imbalanced data etc). and with Hyperparameter Tuning it gives better performance
+The reason behind selecting Random Forest is it works well with all kind of data(automatically handle missing values,imbalanced data etc). and with Hyperparameter Tuning it gives better performance
 
 <h3>Part-1</h3>
 <h4>EDA & OneHot Endcoding</h4></br>
@@ -12,7 +12,7 @@ Here all date and time columns are converted into numerical values
 <img src="OneHot.PNG" alt="">
 
 <h3>Part-2</h3>
-<h4>Feature scaling</h4> 
+<h4>Date Time Conversion</h4> 
 <img src="DateTime.PNG" alt="">
 
 <h3>Part-3</h3>
