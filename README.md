@@ -6,7 +6,7 @@ Model is train using HyperParameter Tuning</br>
 The reason behind selecting Random Forest is it works well with all kind of data(imbalanced data etc). and with Hyperparameter Tuning it gives better performance
 
 <h3>Part-1</h3>
-# EDA & OneHot Endcoding
+EDA & OneHot Endcoding</br>
 First we perform EDA on given data. Handling all missing values, Performing OneHot encoding and extracting only required features.</br>
 Here all date and time columns are converted into numerical values
 <img src="OneHot.PNG" alt="">
