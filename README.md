@@ -30,7 +30,7 @@ The model is deployed using Flask web framework and hosted in Heroku server.
 <img src="Flask.PNG" alt="">
 
 # Screens
-<img src="Screen1.PNG" alt="">
-<img src="Screen2.PNG" alt="">
+<img src="Screen1.png" alt="">
+<img src="Screen2.png" alt="">
 
 <h3>Demo-https://flightcostprediction.herokuapp.com/</h3>
