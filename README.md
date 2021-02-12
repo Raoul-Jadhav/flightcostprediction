@@ -6,26 +6,26 @@ Model is train using HyperParameter Tuning</br>
 The reason behind selecting Random Forest is it works well with all kind of data(imbalanced data etc). and with Hyperparameter Tuning it gives better performance
 
 <h3>Part-1</h3>
-EDA & OneHot Endcoding</br>
+<h4>EDA & OneHot Endcoding</h4></br>
 First we perform EDA on given data. Handling all missing values, Performing OneHot encoding and extracting only required features.</br>
 Here all date and time columns are converted into numerical values
 <img src="OneHot.PNG" alt="">
 
 <h3>Part-2</h3>
-Feature scaling 
+<h4>Feature scaling</h4> 
 <img src="DateTime.PNG" alt="">
 
 <h3>Part-3</h3>
-Model Building
+<h4>Model Building</h4>
 <img src="Model.PNG" alt="">
 
 <h3>Part-4</h3>
-Hyperparameter Tuning
+<h4>Hyperparameter Tuning</h4>
 <img src="Hyperparameter.PNG" alt="">
 <img src="BestParameter.PNG" alt="">
 
 <h3>Part-5</h3>
-Deployment & Hosting</br>
+<h4>Deployment & Hosting</h4></br>
 The model is deployed using Flask web framework and hosted in Heroku server.
 <img src="Flask.PNG" alt="">
 
